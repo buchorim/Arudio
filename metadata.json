@@ -1,0 +1,6 @@
+{
+  "name": "Arudio",
+  "description": "A browser-based audio mixer and editor prototype focused on a dense DAW-style timeline UI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

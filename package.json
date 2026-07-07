@@ -1,0 +1,28 @@
+{
+  "name": "arudio",
+  "version": "0.8.0",
+  "description": "Browser-first compact audio mixer and editor built with Svelte, Vite, and Web Audio.",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "powershell -NoProfile -Command \"Remove-Item -Recurse -Force dist -ErrorAction SilentlyContinue\"",
+    "lint": "svelte-check --tsconfig ./tsconfig.json",
+    "test:audio-readiness": "playwright test Tests/AudioReadiness.spec.ts"
+  },
+  "dependencies": {
+    "@breezystack/lamejs": "^1.2.7",
+    "@lucide/svelte": "^0.546.0",
+    "svelte": "^5.38.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@sveltejs/vite-plugin-svelte": "^5.1.1",
+    "@types/node": "^26.1.0",
+    "svelte-check": "^4.1.4",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3"
+  }
+}

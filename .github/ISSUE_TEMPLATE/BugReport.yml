@@ -1,0 +1,68 @@
+name: Bug report
+description: Report a reproducible Arudio problem
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Arudio. Clear reproduction steps make fixes much faster.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What went wrong?
+      placeholder: Describe the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact actions that trigger the problem.
+      placeholder: |
+        1. Import audio
+        2. Select a clip
+        3. Change a parameter
+        4. See the problem
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead?
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      placeholder: Chrome 126, Edge 126, etc.
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: Windows 11, macOS, Linux
+    validations:
+      required: true
+  - type: input
+    id: audio
+    attributes:
+      label: Audio file details
+      placeholder: WAV, MP3, duration, sample rate if known
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshot or recording
+      description: Drag images or recordings here when visual behavior matters.
