@@ -3,6 +3,14 @@
   "version": "0.8.0",
   "description": "Browser-first compact audio mixer and editor built with Svelte, Vite, and Web Audio.",
   "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/buchorim/Arudio#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buchorim/Arudio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/buchorim/Arudio/issues"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",

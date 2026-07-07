@@ -250,13 +250,13 @@ Phase 7 — OnePointZeroQualityGate [In Progress]
 - [x] Re-ran `npm run lint`, targeted WAV/MP3 export Playwright validation, and `npm run build` successfully after MP3 encoder support - Phase 7
 - [x] Documented and completed D-065 effect-parameter keyframe targeting so supported effect sliders and rack macros write to the active/nearby compound diamond or existing automated effect lane instead of falling back to fixed/global effect values - Phase 4/6/7
 - [x] Re-ran `npm run lint`, targeted multi-effect and unselected-compound effect automation Playwright validations, and `npm run build` successfully after D-065 - Phase 7
+- [x] Documented and completed D-066 public GitHub repository preparation with polished README, permissive attribution license, detailed feature docs, known problems, contribution guide, issue template, Windows installer scripts, safe ignored-file boundaries, and package repository metadata - Phase 5/7
+- [x] Validated D-066 with installer dry-run, secret scan, `npm run lint`, `npm run build`, local git commit, public GitHub repository creation, and push to `https://github.com/buchorim/Arudio` - Phase 7
 
 ## In Progress
 - [ ] Maintain the 1.0 detail backlog so owner-reported rough edges are fixed, owned by a phase, or explicitly blocked before release — Phase 7
 - [ ] Continue D-016 parameter expansion toward the next real engine-backed device family instead of adding disconnected sidebar sliders — Phase 3/6/7
 - [ ] Continue compact professional workflow implementation with effect rack, focused parameter panels, and shortcut customization — Phase 6
-
-- [ ] D-066 prepare and publish the public GitHub repository with polished README, permissive attribution license, detailed feature docs, known problems, and safe ignored-file boundaries — Phase 5/7
 
 ## Pending
 - [ ] Run the full 1.0 quality gate audit before preparing any Arudio 1.0 Beta handoff — Phase 7
