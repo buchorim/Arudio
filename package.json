@@ -3,13 +3,13 @@
   "version": "0.8.0",
   "description": "Browser-first compact audio mixer and editor built with Svelte, Vite, and Web Audio.",
   "license": "SEE LICENSE IN LICENSE",
-  "homepage": "https://github.com/arinaranetwork-cloud/Arudio#readme",
+  "homepage": "https://github.com/Arinaranetwork/Arudio#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arinaranetwork-cloud/Arudio.git"
+    "url": "git+https://github.com/Arinaranetwork/Arudio.git"
   },
   "bugs": {
-    "url": "https://github.com/arinaranetwork-cloud/Arudio/issues"
+    "url": "https://github.com/Arinaranetwork/Arudio/issues"
   },
   "type": "module",
   "scripts": {
