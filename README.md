@@ -150,7 +150,6 @@ Read the current public problem list in [Docs/KnownProblems.md](Docs/KnownProble
 ```txt
 src/        Svelte app, audio engine, export encoders, stores, and UI components
 Tests/      Playwright browser validation
-Plan/       Product plan, phase specs, and progress tracking
 Docs/       Public feature and known-problem documentation
 assets/     Static project assets
 ```
@@ -170,7 +169,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-Arudio is released under a custom permissive attribution license. You may use, copy, modify, distribute, and use it commercially, as long as credit is kept.
+Arudio is licensed under Arinara Network License 1. You may use, copy, modify, distribute, and use it commercially, provided that every distribution and commercial use gives visible credit to Arinara Network and retains the license notice.
 
 See [LICENSE](LICENSE).
 

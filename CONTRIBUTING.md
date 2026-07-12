@@ -40,7 +40,7 @@ npm run build
 
 - Keep the editor UI compact and work-focused.
 - Do not add fake audio behavior.
-- Document feature work in `Plan/` before implementation.
+- Document user-facing behavior in the README or public `Docs/` when relevant.
 - Validate browser audio and export behavior when changing audio logic.
 - Keep error messages explicit.
 - Do not commit `node_modules`, `dist`, logs, local env files, Playwright reports, or test output.
